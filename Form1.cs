@@ -596,7 +596,7 @@ namespace RegReplace
             sw.Stop();
             m_runningTime.Stop();
 
-            txtResult.Text += "Finished in " + sw.Elapsed.TotalSeconds.ToString() + " seconds.\r\n You may need to enable PowerShell scripts by running the following command:\r\nSet-ExecutionPolicy RemoteSigned\r\n ... This can be set back to the most secure setting later by saying \r\nSet-ExecutionPolicy Restricted";
+            txtResult.Text += "Finished in " + sw.Elapsed.TotalSeconds.ToString() + " seconds.\r\n";
             txtCurrentLocation.Text = "";
 
         }
