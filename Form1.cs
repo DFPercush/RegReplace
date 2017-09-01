@@ -1,6 +1,13 @@
 ﻿/*
 TODO: 
-    
+
+    -------------------------------------------------    
+    Legend: 
+        . pending
+        - canceled
+        / in progress, tentative, needs testing, etc.
+        + completed
+    -------------------------------------------------
 
     . binary, handle misalignment where len(find) - len(rep) % len(padding) != 0 (GetBytes() encoded length)
 
@@ -55,7 +62,7 @@ namespace RegReplace
 {
     public partial class Form1 : Form
     {
-        const string DefaultRegistryValueSentinelStringConstant = "RegReplace_dot_DefaultRegistryValueSentinelStringConstant_7af4b33f-3a4d-4b8a-9f40-8c01bbc27b14";
+        const string DefaultRegistryValueSentinelStringConstant = "RegReplace_dot_Form1_Dot_DefaultRegistryValueSentinelStringConstant_7af4b33f-3a4d-4b8a-9f40-8c01bbc27b14";
 
         bool m_userCancel = false;
         TimeSpan m_lastRefreshTime = new TimeSpan();

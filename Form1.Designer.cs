@@ -381,12 +381,12 @@
             // chkBinary
             // 
             this.chkBinary.AutoSize = true;
-            this.chkBinary.ForeColor = System.Drawing.Color.Red;
+            this.chkBinary.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkBinary.Location = new System.Drawing.Point(240, 274);
             this.chkBinary.Name = "chkBinary";
-            this.chkBinary.Size = new System.Drawing.Size(140, 17);
+            this.chkBinary.Size = new System.Drawing.Size(55, 17);
             this.chkBinary.TabIndex = 27;
-            this.chkBinary.Text = "Binary (unstable feature)";
+            this.chkBinary.Text = "Binary";
             this.chkBinary.UseVisualStyleBackColor = true;
             // 
             // txtCurrentLocation
